@@ -1,0 +1,80 @@
+body{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: Arial;
+    font-size: 35px;
+    flex-direction: row;
+    background: linear-gradient(to right,rgb(43, 43, 43),rgb(122, 122, 122));
+
+}
+p{
+    text-align: center;
+}
+#configPokemon{
+    width: 200px;
+    height: auto;
+    background-color: rgb(173, 173, 173);
+    
+}
+
+#background{
+    width: 220px;
+    height: 210px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+#background:hover{
+    transition: 0.5s;
+    width: 230px;
+    height: 220px;
+    border-color: limegreen;
+}
+#sharmander{
+    position: absolute;
+    left: 265px;
+    list-style: none;
+}
+
+#Bulbasaur{
+    position: absolute;
+    left: 545px;
+    list-style: none;
+}
+#Squirtle{
+    position: absolute;
+    left: 825px;
+    list-style: none;
+}
+.escolherPokemon button{
+    background-color: rgb(173, 173, 173);
+    border: none;
+   
+}
+.sobrePokemon{
+    list-style: none;
+    
+    position: fixed;
+    top: 300px;
+    
+}
+#visibehidden{
+    visibility: hidden;
+}
+#btn_next{
+    font-size: 20px;
+    width: 128px;
+    height: auto;
+    background: linear-gradient(to right,rgb(19, 151, 19),rgb(39, 216, 39));
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+}
+#btn_next:hover{
+    transition: 0.5s;
+    width: 138px;
+    height: auto;
+    font: 25px;
+    
+}
