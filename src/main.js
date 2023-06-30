@@ -10,9 +10,10 @@ app.get('/Luta-Shar-Rattata/',(req,res)=>{
     res.sendFile(__dirname+'/public/html/sharmanderVsrattata.html')
 })
 app.get('/Luta-Bulb-Rattata/',(req,res)=>{
-    res.sendFile(__dirname+'/public/html/squirtleVsrattata.html')
+    res.sendFile(__dirname+'/public/html/bulbasaurVsrattata.html')
 })
 app.get('/Luta-Squi-Rattata/',(req,res)=>{
-    req.sendFile(__dirname+'/public/html/squirtleVsrattata.html')
+    res.sendFile(__dirname+'/public/html/squirtleVsrattata.html')
 })
 app.listen(port)
+//Fazer as miniaturas e colocar no html da batalha

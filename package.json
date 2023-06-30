@@ -1,7 +1,7 @@
 {
   "name": "batalha-pokemon",
   "version": "1.0.0",
-  "description": "",
+  "description": "Imagens e estatics tiradas do site https://www.pokemon.com/br/pokedex/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

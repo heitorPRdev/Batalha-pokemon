@@ -3,30 +3,26 @@ const sharmander_info = {nome:'Sharmander',
                          tipo:'fogo',
                          fraco:'água, chão e pedra',
                          vida:100,
-                         attack:25
+                         attack:70
 }
 //propriedades do Bulbasaur
 const bulbasaur_info = {nome:'Bulbasaur',
                          tipo:'planta e veneno',
                          fraco:'fogo, pisifico, voador e gelo',
                          vida:100,
-                         attack:16
+                         attack:64
 }
 //propriedades squirtle
 const squirtle_info = {nome:'Squirtle',
                          tipo:'água',
                          fraco:'planta e eletrico',
                          vida:100,
-                         attack:16
+                         attack:64
 }
-//Pokemon a derrotar
-const rattata_info = {nome:'Rattata',
-                         tipo:'normal',
-                         fraco:'voador',
-                         vida: 65,
-                         attack:25
-}
-//Sobre(ids adicionados no index)
+
+//paigna inicial
+
+//Sobre(ids/classes adicionados no index)
 const nomePoke = document.getElementById('nomePokemon')
 const tipoPoke = document.getElementById('tipoPokemon')
 const fracoPoke = document.getElementById('fracoPokemon')
@@ -34,7 +30,7 @@ const vidaPoke = document.getElementById('vidaPokemon')
 const attackPoke = document.getElementById('attackPokemon')
 const sobrePokemon = document.getElementsByClassName('sobrePokemon')
 const divVisbSobrePokemon = document.getElementById('visibehidden')
-
+const inicialBox = document.getElementById('inicialBox')
 //Botões
 const escolhaSharmander = document.getElementById('escolhaSharmander')
 const escolhaBulbasaur = document.getElementById('escolhaBulbasaur')
@@ -46,9 +42,10 @@ escolhaSharmander.addEventListener('click',()=>{
     tipoPoke.innerText = `Tipo: ${sharmander_info.tipo}`
     fracoPoke.innerText = `Fraco: ${sharmander_info.fraco}`
     vidaPoke.innerText =  `Vida:  ${sharmander_info.vida}`
-    attackPoke.innerText =  `Attack:  ${sharmander_info.attack}`
+    attackPoke.innerText =  `Attack-max:  ${sharmander_info.attack}`
     btn_next.addEventListener('click', ()=>{
-        window.open("/Luta-Shar-Rattata/","_self")
+        
+        window.open('/Luta-Shar-Rattata/','_self')
     })
 } )
 escolhaBulbasaur.addEventListener('click', ()=>{
@@ -57,12 +54,11 @@ escolhaBulbasaur.addEventListener('click', ()=>{
     tipoPoke.innerText = `Tipo: ${bulbasaur_info.tipo}`
     fracoPoke.innerText = `Fraco: ${bulbasaur_info.fraco}`
     vidaPoke.innerText =  `Vida:  ${bulbasaur_info.vida}`
-    attackPoke.innerText =  `Attack:  ${bulbasaur_info.attack}`
-    
+    attackPoke.innerText =  `Attack-max:  ${bulbasaur_info.attack}`
     btn_next.addEventListener('click', ()=>{
-        window.open("/Luta-Bulb-Rattata/","_self")
+        window.open('/Luta-Bulb-Rattata/','_self')
+        
     })
-    
 })
 escolhaSquirtle.addEventListener('click',()=>{
     divVisbSobrePokemon.style.visibility = 'visible'
@@ -70,10 +66,10 @@ escolhaSquirtle.addEventListener('click',()=>{
     tipoPoke.innerText = `Tipo: ${squirtle_info.tipo}`
     fracoPoke.innerText = `Fraco: ${squirtle_info.fraco}`
     vidaPoke.innerText =  `Vida:  ${squirtle_info.vida}`
-    attackPoke.innerText =  `Attack:  ${squirtle_info.attack}`
+    attackPoke.innerText =  `Attack-max:  ${squirtle_info.attack}`
     btn_next.addEventListener('click', ()=>{
-        window.open("/Luta-Squi-Rattata/","_self")
+        window.open('/Luta-Squi-Rattata/')
+        
     })
 })
-
-
+//fim da pagina inicial

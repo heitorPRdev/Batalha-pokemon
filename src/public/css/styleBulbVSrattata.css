@@ -1,0 +1,92 @@
+body{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: Arial;
+    font-size: 35px;
+    flex-direction: row;
+    background: linear-gradient(to right,rgb(43, 43, 43),rgb(122, 122, 122));
+
+}
+.config_pokemon{
+    width: 70px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+#background{
+    background-color: rgb(34, 34, 34);
+    border-radius: 15px;
+    height: 120px;
+}
+.background_img_inimi{
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: fixed;
+    top: 45px;
+
+}
+.background_img_pokemon{
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 280px;
+}
+
+#pokemon-inimigo-img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+   
+}
+
+
+#pokemon-img-amig{
+    position: absolute;
+    top: 15px;
+    left: 8px;
+}
+li{
+    list-style: none;
+}
+button{
+    background-color: rgb(58, 58, 58);
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+#attack1List{
+    position: absolute;
+    top: 300px;
+    left: 310px;
+}
+#attack2List{
+    position: absolute;
+    top: 300px;
+    left: 485px;
+}
+#attack3List{
+    position: absolute;
+    top: 300px;
+    left: 645px;
+}
+#attack4List{
+    position: absolute;
+    top: 300px;
+    left: 888px;
+}
+#vida-pokemon{
+    position: absolute;
+    top: 340px;
+    left: 180px;
+}
+#vida-inimigo{
+    position: absolute;
+    top: 100px;
+    left: 180px;
+}
+
