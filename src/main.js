@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 5000
-app.use(express.static(__dirname+'/public'))
+app.use(express.static(__dirname+'/src'))
 
 app.get('/',(req,res)=>{
     res.sendFile(__dirname+'/public/html/index.html')
