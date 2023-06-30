@@ -20,7 +20,7 @@ attack1.addEventListener('click',()=>{
     vidaRattataIni -= pokemon_Attack[0]
     vidaInimigo.innerText = vidaRattataIni
     vidaPokemonIni -= 15
-    vidaPokemon.innerText = vidaPokemonIn
+    vidaPokemon.innerText = vidaPokemonIni
     if(vidaRattataIni <=0){
         window.open('/vencedor/','_self')
     }

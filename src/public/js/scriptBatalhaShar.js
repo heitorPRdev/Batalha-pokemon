@@ -23,7 +23,7 @@ attack1.addEventListener('click',()=>{
     vidaPokemon.innerText = vidaPokemonIni
     
     if(vidaRattataIni <=0){
-        window.open('/vencedor_sharmander/','_self')
+        window.open('/vencedor/','_self')
     }
     if(vidaPokemonIni <= 0){
         window.open('/Vencerdor_rattata/','_self')
@@ -38,7 +38,7 @@ attack2.addEventListener('click',()=>{
     vidaPokemonIni -= 15
     vidaPokemon.innerText = vidaPokemonIni
     if(vidaRattataIni <=0){
-        window.open('/vencedor_sharmander/','_self')
+        window.open('/vencedor/','_self')
     }
     if(vidaPokemonIni <= 0){
         window.open('/Vencerdor_rattata/','_self')
@@ -52,7 +52,7 @@ attack3.addEventListener('click',()=>{
     vidaPokemonIni -= 25
     vidaPokemon.innerText = vidaPokemonIni
     if(vidaRattataIni <=0){
-        window.open('/vencedor_sharmander/','_self')
+        window.open('/vencedor/','_self')
     }
     if(vidaPokemonIni <= 0){
         window.open('/Vencerdor_rattata/','_self')
